@@ -263,6 +263,7 @@ public class FreshFormDynamic extends AppCompatActivity {
                     linearLayout.addView(radioGroup);
                     break;
 
+                // Checking if the design is for button
                 case "Button" :
                     Log.e(TAG, "Button to be displayed");
                     Button button = new Button(applicationContext);
